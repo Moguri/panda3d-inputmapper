@@ -3,6 +3,8 @@ from direct.showbase.DirectObject import DirectObject
 
 class InputMapper(DirectObject):
     def __init__(self, config_path, verbose=False, remap_keys=True):
+        super().__init__()
+
         self.verbose = verbose
         self.remap_keys = remap_keys
 

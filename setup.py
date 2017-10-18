@@ -20,4 +20,7 @@ setup(
     author='Mitchell Stokes',
     license='BSD',
     packages=['inputmapper'],
+    install_requires=[
+        'panda3d',
+    ],
 )

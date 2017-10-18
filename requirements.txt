@@ -1,0 +1,5 @@
+pycodestyle
+pylint
+wheel
+--extra-index-url https://archive.panda3d.org/branches/master
+panda3d
